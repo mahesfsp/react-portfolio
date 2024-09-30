@@ -19,7 +19,7 @@ export default function Resume() {
               target="_blank"
               rel="noopener noreferrer"
               href={ResumePdf}
-              download="resume.pdf"
+              download="MaheswariMarimuthuFullstack6years.pdf"
             >
               Download
             </a>
