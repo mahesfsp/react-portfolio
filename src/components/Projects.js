@@ -7,18 +7,18 @@ export default function Projects() {
     projects: [
       {
         image: websiteimg1,
-        description: "Ecommerce build with mern stack",
-        link: "",
+        description: "Chowkti : Orchestrated, and oversaw the complete frontend and backend development of a daily wage worker-hirer marketplace, leveraging Angular, React Native, Laravel, Nest JS, MySQL, and AWS technologies, resulting in a user base of over 50K users.",
+        link: "https://chowkti.com/",
       },
       {
         image: websiteimg2,
-        description: "Ecommerce build with mern stack",
-        link: "",
+        description: "Artiner is a platform for all the artist to display, promote and sale their art works to their art lover.I was associated with Artiner product development team as Technical Lead, as a lead developer my primary role is to deliver productive output by translating business requirement to development.",
+        link: "https://www.artiner.com/",
       },
       {
         image: websiteimg3,
-        description: "Ecommerce build with mern stack",
-        link: "",
+        description: "IDFC FIRST BANK :Facilitated on-field lead generation for managers and sales officers with the IDFC FIRST BANK - SO APP, streamlining attendance tracking and leave management for enhanced operational efficiency.",
+        link: "https://www.idfcfirstbank.com/",
       },
     ],
   };

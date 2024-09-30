@@ -1,7 +1,8 @@
 export default function Contact() {
 const config ={
   email:'mahesinfotech2012@gmail.com',
-  phone:'0503282363'
+  phone:'0503282363',
+  indianumber:'9677357294'
 }
 
   return (
@@ -17,7 +18,10 @@ const config ={
           <span className="font-bold">Email:{config.email}</span>
         </p>
         <p className="py-2">
-          <span className="font-bold">Phone:{config.phone}</span>
+          <span className="font-bold">Dubai:{config.phone}</span>
+        </p>
+        <p className="py-2">
+          <span className="font-bold">India:{config.indianumber}</span>
         </p>
       </div>
     </section>
