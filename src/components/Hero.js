@@ -5,6 +5,8 @@ import { AiOutlineTwitter,AiOutlineLinkedin,AiOutlineFacebook } from 'react-icon
 export default function Hero(){
     const config={
         subtitle:"I am a Full Stack Developer",
+        skills1:"Laravel,Symfony,cakePHP,TypeScript,Node,React,VueJS,Mysql,Mongo,",
+        skills2:"ExpressJS,AWS,Go",
         social:{
             twitter:'',
             facebook:'',
@@ -16,6 +18,10 @@ export default function Hero(){
        <div className='md:w-1/2 flex flex-col'>
        <h1 className='text-white text-6xl font-hero-font'>Hi , <br/> I am Maheswari Marimuthu
         <p className='text-2xl'>{config.subtitle}</p>
+        <br/>
+        <p className='text-4xl'>Areas of Proficiency:</p>
+        <p className='text-2xl'>{config.skills1}</p>
+        <p className='text-2xl'>{config.skills2}</p>
         </h1>
         <div className='flex py-10'>
             {/* <a href={config.social.twitter} className='pr-5 hover:text-white'><AiOutlineTwitter size={40}/></a> */}
