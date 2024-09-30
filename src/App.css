@@ -16,7 +16,7 @@
 }
 
 .mobile-nav{
-  @apply fixed top-10 left-0 bg-gray-600 w-full h-1/2;
+  @apply fixed top-10 left-0 bg-gray-800 w-full h-1/2;
 }
 
 .mobile-nav li{
@@ -25,4 +25,13 @@
 
 .project-desc{
   @apply absolute left-0 hover:opacity-100 opacity-0 right-0 top-0 bg-secondary bottom-0
+}
+
+
+.btn{
+  @apply bg-primary px-5 py-2 font-bold hover:border-2 border-white rounded
+}
+
+html{
+  scroll-behavior: smooth;
 }

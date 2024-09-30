@@ -10,18 +10,20 @@ export default function Header() {
           <nav className="hidden md:block">
           <ul className="flex text-white">
                 <li className="nav-item"><a href="/">Home</a></li>
-                <li className="nav-item"><a href="/about">About</a></li>
-                <li className="nav-item"><a href="/projects">Projects</a></li>
-                <li className="nav-item"><a href="/contact">Contact</a></li>
+                <li className="nav-item"><a href="#about">About</a></li>
+                <li className="nav-item"><a href="#projects">Projects</a></li>
+                <li className="nav-item"><a href="#resume">Resume</a></li>
+                <li className="nav-item"><a href="#contact">Contact</a></li>
             </ul>
           </nav>
 
          {toggleMenu && <nav className="block md:hidden">
-          <ul className="flex flex-col text-white mobile-nav">
+          <ul onClick={()=>setToggleMenu(!toggleMenu)} className="flex flex-col text-white mobile-nav">
                 <li className="nav-item"><a href="/">Home</a></li>
-                <li className="nav-item"><a href="/about">About</a></li>
-                <li className="nav-item"><a href="/projects">Projects</a></li>
-                <li className="nav-item"><a href="/contact">Contact</a></li>
+                <li className="nav-item"><a href="#about">About</a></li>
+                <li className="nav-item"><a href="#projects">Projects</a></li>
+                <li className="nav-item"><a href="#resume">Resume</a></li>
+                <li className="nav-item"><a href="#contact">Contact</a></li>
             </ul>
           </nav>}
 
